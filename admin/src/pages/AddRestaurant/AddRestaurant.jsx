@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './AddRestaurant.css'; // Make sure to create and style this CSS file
-import { assets, url } from '../../assets/assets';
+import { url } from '../../assets/assets';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 

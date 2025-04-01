@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './AddDriver.css'; // Make sure to create and style this CSS file
 import axios from 'axios';
 import { toast } from 'react-toastify';

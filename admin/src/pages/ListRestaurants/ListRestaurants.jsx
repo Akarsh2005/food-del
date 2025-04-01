@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './ListRestaurants.css'; // You can reuse the existing List.css or create a new one for restaurants if needed
 import { url } from '../../assets/assets'; // Ensure you have the correct URL for your API
 import axios from 'axios';
