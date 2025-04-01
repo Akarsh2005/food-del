@@ -11,7 +11,7 @@ import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 import restaurantRouter from "./routes/restaurantRoute.js";
 import driverRouter from "./routes/driverRoute.js";
-import paymentRouter from "./routes/paymentRoute.js";
+
 
 // Initialize express app
 const app = express();
@@ -31,7 +31,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 app.use("/api/restaurant", restaurantRouter);
 app.use("/api/driver", driverRouter);
-app.use("/api/payment", paymentRouter);
+
 
 // Serve static files (e.g., images)
 app.use("/images", express.static(path.join(process.cwd(), 'uploads')));
